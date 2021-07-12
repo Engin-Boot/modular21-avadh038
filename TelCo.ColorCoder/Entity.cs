@@ -4,7 +4,7 @@ using System.Drawing;
 
 namespace TelCo.ColorCoder
 {
-    class Program
+    class Entity
     {
         
         public static Color[] colorMapMajor;
@@ -18,7 +18,7 @@ namespace TelCo.ColorCoder
                 return string.Format("MajorColor:{0}, MinorColor:{1}", majorColor.Name, minorColor.Name);
             }
         }
-        static Program()
+        static Entity()
         {
             colorMapMajor = new Color[] { Color.White, Color.Red, Color.Black, Color.Yellow, Color.Violet };
             colorMapMinor = new Color[] { Color.Blue, Color.Orange, Color.Green, Color.Brown, Color.SlateGray };
