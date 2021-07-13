@@ -2,8 +2,6 @@ using System;
 using System.Diagnostics;
 using System.Drawing;
 using static TelCo.ColorCoder.Entity;
-using  static TelCo.ColorCoder.ColorFromPairNumber;
-using  static TelCo.ColorCoder.PairNumberFromColor;
 
 namespace TelCo.ColorCoder
 {
