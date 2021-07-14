@@ -13,9 +13,11 @@ namespace TelCo.ColorCoder
         {
 
            int pno = 1;
-            for (int i = 0; i < 5; i++)
+           int majSize = ColorCodeEntity.colorMapMajor.Length;
+           int minSize = ColorCodeEntity.colorMapMajor.Length;
+            for (int i = 0; i < majSize; i++)
             {
-                for (int j = 0; j < 5; j++)
+                for (int j = 0; j < minSize; j++)
                 {
 
                     Console.WriteLine("[In]Pair Number: {0},Colors: major{1} - minor{2}\n", pno, ColorCodeEntity.colorMapMajor[i], ColorCodeEntity.colorMapMinor[j]);
