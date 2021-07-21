@@ -6,15 +6,15 @@ using System.Text;
 
 namespace TelCo.ColorCoder
 {
-    class ManualPrinting
+    class ManualPrinting:IManual
     {
         
-        public static void manual()
+        public void Printmanual()
         {
 
            int pno = 1;
            int majSize = ColorCodeEntity.colorMapMajor.Length;
-           int minSize = ColorCodeEntity.colorMapMajor.Length;
+           int minSize = ColorCodeEntity.colorMapMinor.Length;
             for (int i = 0; i < majSize; i++)
             {
                 for (int j = 0; j < minSize; j++)
